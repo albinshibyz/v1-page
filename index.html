@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albin Shiby | personal webpage @albinshibyy</title>
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="@albinshibyy" />
+    <meta property="og:description" content="Albin Shiby | personal webpage @albinshibyy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="assets/img/main.png" />
+    <meta property="og:site_name" content="@albinshibyy" />
+    <meta property="og:image" content="assets/img/og.png" />
+    <meta property="og:image:type" content="image/png" />
+    <link rel="icon" type="image/png" href="assets/img/main.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/extra.css">
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="fa66ad93-eb07-49ca-acda-78a268ce7ffe"></script>
+</head>
+
+<body>
+    <!-- right click disabling script start -->
+    <script>
+        document.addEventListener("contextmenu", e => {
+            alert("Sorry! Right Click is disabled");
+            e.preventDefault();
+        });
+    </script>
+    <!-- right click disabling script END -->
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="" class="nav__logo">~/ @albinshibyy</a>
+            </div>
+
+            <a href="#popupmenu" class="mail"><img src="assets/img/icons/menu.png" class="mail"></a>
+        </nav>
+    </header>
+    <!-- HOME -->
+    <main class="main-bg">
+        <!-- Imagen editable -->
+        <img src="" alt="" class="main-bg__hero-img">
+        <div class="home bd-grid">
+             <ul>
+                <div class="icons-container">
+                    <a><img class="t-img" src="assets/img/main.png" alt="main"></img></a>
+
+                </div><br>
+
+            </ul> 
+            <span class="home__title">hey, i'm albin shiby</span>
+            <p>
+            cybersecurity researcher, #foss hacktivist && btw i use <span class="upsha">arch_linux</span>.
+               <!-- <br><a href="#" style="text-decoration: none;filter: opacity(80%); color:brown;">~/ read more</a> -->
+            </p>
+            <h3 class="intro__contact"> <span>~/ contact me --></span> <span class="emoji pointer"></span> <span> <a
+                        href="mailto:heyalbins@gmail.com" class="highlight-link">heyalbins@gmail.com (email)</a>
+                </span> </h3>
+            <h3 class="intro__contact"> <span>~/ view .resume --></span> <span class="emoji pointer"></span> <span> <a
+                        href="assets/albin_shiby_resume.pdf" target="_blank" class="highlight-link">download resume file (pdf)</a>
+                </span> </h3>
+                 <h3 class="intro__contact"> <span>~/ personal blogs --></span> <span class="emoji pointer"></span> <span> <a
+                        href="https://substack.com/@albinshiby" target="_blank" class="highlight-link">visit blogs on (substack)</a>
+                </span> </h3>
+           <!-- <ul id="buttons01" class="buttons" style="opacity: 1; transform: none;">
+                <li><a href="" target="_blank" class="button n01">💬</a></li>
+                <li><a href="https://substack.com/@albinshiby?utm_source=profile-page" target="_blank"
+                        class="button n03">my blog's</a></li>
+                <li><a href="links.html" class="button n04">important links</a></li>
+            </ul>-->
+            <div class="icons-container">
+                <a href="https://github.com/albinshibyy" target="_blank"><img class="icon"
+                        src="assets/img/icons/github.png"></img></a>
+                <a href="https://instagram.com/albinshibyy" target="_blank"><img class="icon"
+                        src="assets/img/icons/instagram.png"></img></a>
+                <a href="https://gitlab.com/albinshiby" target="_blank"><img class="icon"
+                        src="assets/img/icons/gitlab.png"></img></a>
+                <a href="https://twitter.com/albinshibyy" target="_blank"><img class="icon"
+                        src="assets/img/icons/x.png"></img></a>
+                <a href="https://mastodon.social/@albinshibyy" target="_blank"><img class="icon"
+                        src="assets/img/icons/mast.png"></img></a>
+                <a href="https://www.linkedin.com/in/albin-shiby-45098b285" target="_blank"><img class="icon"
+                        src="assets/img/icons/in.png"></img></a>
+            </div><br>
+           <!-- <span class="foot">designed & developed by @albinshibyy 2024</span> -->
+        </div>
+        <!-- Popup navigation menu -->
+        <a onclick="toggleTheme()" class="logo"><img src="assets/img/icons/dark.png" class="logo"></a>
+        <div class="popup" id="popupmenu">
+            <div class="popup__content">
+                <div class="popup__right"> <a href="#!" class="popup__close">×</a>
+                    <div class="popup__top">
+                        <a href="https://github.com/albinshibyy/albinshibyy" class="menuli">about me</a><br>
+                        <a href="https://github.com/albinshibyy" class="menuli">project's</a><br>
+                        <a href="https://snowflake.torproject.org/" class="menuli">snowflakes</a><br>
+                        <a href="sub/contact.html" class="menuli">contact me</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popup navigation menu END -->
+    </main>
+    <script>
+        function toggleTheme() {
+            var html = document.querySelector('html');
+            if (html.getAttribute('data-theme') === 'light') {
+                html.setAttribute('data-theme', 'dark');
+            } else {
+                html.setAttribute('data-theme', 'light');
+            }
+        }
+
+    </script>
+    <!-- ICONOS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
